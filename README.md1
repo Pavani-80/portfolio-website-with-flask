@@ -1,0 +1,63 @@
+# portfolio-website-with-flask
+A simple personal portfolio website built using Python Flask, HTML, and CSS. 
+This site displays personal information and has a contact form for visitors to send messages.
+
+## 🛠 Tools Used
+- Python
+- Flask
+- HTML
+- CSS
+
+## 📂 Project Structure
+  portfolio_flask/
+│
+├── app.py
+│
+├── templates/
+│   ├── index.html
+│   ├── contact.html
+│   └── thankyou.html
+│
+└── static/
+    └── style.css
+
+    
+## 🚀 Features
+- Home page with personal details
+- Contact form
+- Form data handling using Flask
+- Clean and simple design with CSS
+
+## 📜 Key Concepts Learned
+- Flask Templates & Routing
+- Jinja2 templating
+- Handling GET & POST methods
+- Using `render_template()` to pass data to HTML
+- Serving static files (CSS, JS, Images)
+
+## 💡 How to Run Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Pavani-80/portfolio-website-with-flask.git
+   cd portfolio-website-with-flask
+2.Create a virtual environment:
+    python -m venv venv
+3.Activate the environment:
+    Windows PowerShell:
+         venv\Scripts\Activate.ps1
+4.Install dependencies:
+    pip install flask
+5.Run the app:
+    python app.py
+6.Open in browser:
+    http://127.0.0.1:5000/
+
+
+
+
+
+
+
+
+
+
