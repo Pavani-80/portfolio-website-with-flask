@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pavani Chepalle - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Pavani Chepalle</h1>
+        <p>B.Tech ECE | Python Developer | IoT Enthusiast</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>B.Tech ECE graduate skilled in Python, SQL, and full-stack basics. Completed projects in data analysis, REST APIs, computer vision, and IoT. Eager to contribute to real-world projects in AI, IoT, or Data Engineering domains.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, C, SQL, Verilog</li>
+            <li>Pandas, NumPy, OpenCV, BeautifulSoup</li>
+            <li>Flask, Django (Basic)</li>
+            <li>MySQL, NoSQL (Exposure)</li>
+            <li>NodeMCU, Arduino Cloud, MQTT</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/Pavani-80/Data-Analysis-on-CSV-Files">Data Analysis on CSV Files</a></li>
+            <li><a href="https://github.com/Pavani-80/Flask-to-display-image">REST API with Flask</a></li>
+            <li><a href="https://github.com/Pavani-80/Web-Scraper-for-News-Headlines">Web Scraper for News Headlines</a></li>
+            <li><a href="https://github.com/Pavani-80/-CLI-To-Do-List-">CLI To-Do List Application</a></li>
+            <li><a href="https://github.com/Pavani-80/Calculator-CLI-App">Calculator CLI App</a></li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>B.Tech in ECE (2021–2025) - G. Pulla Reddy Engineering College, Kurnool</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Trainee – Quality Dept, Mivi Aviskharan Industries (2024–2025)</p>
+        <p>VLSI Internship – SkillDzire (2024)</p>
+        <p>Embedded Systems Internship – AICTE Virtual Internship (2023)</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:chepallepavani777@gmail.com">chepallepavani777@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/pavani-chepalle-94b1752b9">linkedin.com/in/pavani-chepalle</a></p>
+        <p><a href="{{ url_for('contact') }}">Send me a message</a></p>
+    </section>
+</body>
+</html>
